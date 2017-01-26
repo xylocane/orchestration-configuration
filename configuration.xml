@@ -1,0 +1,9 @@
+<configuration>
+  <module>Test Module</module>
+  <description>Test module description</description>
+  <task>
+    <class>com.rfitc.module.Test</class>
+    <method>test</method>
+    <cron>0/5 * * * * ?</cron>
+  </task>
+</configuration>
